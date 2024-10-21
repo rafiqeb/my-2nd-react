@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.country{
+  border: 2px solid gray;
+  margin: 20px;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card-img{
+  width: 350px;
+  height: 180px;
+}
+
+.btn{
+  background-color: rgb(189, 174, 174);
+  border: none;
+}
+
+.visited{
+  background-color: rgb(193, 202, 202);
+}
+
+.flag-container img{
+  width: 160px;
+  height: 100px;
+}
